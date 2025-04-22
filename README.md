@@ -10,7 +10,9 @@ It handles command execution, built-ins, and environment variables.
 ## Files
 | File         | Description |
 |-------------|------------|
-| `stillempty` | stillepmty description |
+| `AUTHORS` | Lists all contributors to the repository |
+| `LICENSE` | Project license |
+| `man_1_simple_shell` | Man file |
 
 
 
