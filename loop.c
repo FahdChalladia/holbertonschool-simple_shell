@@ -5,8 +5,9 @@
 #include <unistd.h>
 
 /**
- * lsh_loop - adds a new node at the beginning of a dlistint_t list
- * @void: pointer to the head of the list
+ * lsh_loop - The main loop of the shell.
+ *
+ * Repeats until the user exits (lsh_execute returns 0).
  */
 void lsh_loop(void)
 {
