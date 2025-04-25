@@ -11,6 +11,6 @@
 int main(int argc, char **argv)
 {
 (void)argc;
-lsh_loop(av);
+lsh_loop(void);
 return (0);
 }
