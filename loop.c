@@ -11,8 +11,7 @@
  */
 void lsh_loop(void)
 {
-char *line = NULL;
-char **args;
+char *line = NULL, **args;
 size_t len = 0;
 ssize_t read;
 int status;
