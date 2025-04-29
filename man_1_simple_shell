@@ -1,0 +1,41 @@
+.TH SIMPLE_SHELL 1 "April 2025" "Holberton School" "Simple Shell Manual"
+
+.SH NAME
+simple_shell \- a simple UNIX command line interpreter.
+
+.SH SYNOPSIS
+.B simple_shell
+[]
+
+.SH DESCRIPTION
+.B simple_shell
+is a basic command line interpreter that reads input from the user, parses it, and executes commands.
+
+It supports simple, one-word commands that match the full path of executables.
+
+.SH USAGE
+Upon running
+.B simple_shell
+, the program will prompt the user with "> ", waiting for a command.
+
+Only commands that are given as full paths (e.g., /bin/ls) are allowed.
+
+.SH EXAMPLES
+Run the shell:
+.RS
+$ ./hsh
+.RE
+
+Execute a command:
+.RS
+> /bin/ls
+.RE
+
+.SH AUTHORS
+Skady, Fahd \- Holberton School students.
+
+.SH LICENSE
+MIT License. See the LICENSE file for details.
+
+.SH SEE ALSO
+execve(2), fork(2), waitpid(2), getline(3)

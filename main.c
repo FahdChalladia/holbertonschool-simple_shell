@@ -8,9 +8,8 @@
  * Return: return exit success on success
  */
 
-int main(int argc, char **argv)
+int main(void)
 {
-(void)argc;
-lsh_loop(void);
+lsh_loop();
 return (0);
 }
